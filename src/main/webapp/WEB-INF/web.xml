@@ -1,0 +1,71 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>Create</servlet-name>
+  <servlet-class>com.ty.stock.controller.CreateItemServlet</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+  <servlet-name>Create</servlet-name>
+<url-pattern>/create</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>GetAll</servlet-name>
+  <servlet-class>com.ty.stock.controller.GetAllItemServlet</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+  <servlet-name>GetAll</servlet-name>
+<url-pattern>/getall</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Delete</servlet-name>
+  <servlet-class>com.ty.stock.controller.DeleteItemServlet</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+  <servlet-name>Delete</servlet-name>
+<url-pattern>/delete</url-pattern>
+  
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Edit</servlet-name>
+  <servlet-class>com.ty.stock.controller.EditItemServlet</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+  <servlet-name>Edit</servlet-name>
+<url-pattern>/edit</url-pattern>
+  
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Get</servlet-name>
+  <servlet-class>com.ty.stock.controller.GetItemServlet</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+  <servlet-name>Get</servlet-name>
+<url-pattern>/get</url-pattern>
+  
+  </servlet-mapping>
+</web-app>
